@@ -8,6 +8,11 @@ namespace App\Controllers;
     {
        echo "Welcome..!";
     }
+
+    public function test ($id){
+        echo "Testing...." . $id;
+    }
+    
  }
 
 
