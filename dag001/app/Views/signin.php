@@ -24,7 +24,7 @@ Tel : <?= $tel ?>
     foreach($subjects as $ss):
 ?>
 
-<li><?=$ss?></li>
+<li><?=$ss?></li>   
 
 <?php
     endforeach;
