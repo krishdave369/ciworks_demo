@@ -9,7 +9,8 @@ class Signin extends BaseController
          $data = [
              'name' =>"ABC",
              'address' => 'xyz',
-             'tel' => '1234567890'
+             'tel' => '1234567890',
+             'subjects' => ["ICT","Maths", "Tamil" ,"Sinhala", "Econ", "Science"]
          ];
 
         echo view("header"); 
