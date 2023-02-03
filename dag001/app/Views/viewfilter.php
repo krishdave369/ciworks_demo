@@ -15,3 +15,12 @@
 {price|local_currency(INR)|highlight_code}
 <br>
 {lorem|limit_chars(25)}
+
+<br>
+<hr>
+<h1>Custom Filter</h1>
+
+Mobie No : {mobile|hideNumbers}
+<br>
+<br>
+Lorem Contains {lorem|countVowels} Vowels
